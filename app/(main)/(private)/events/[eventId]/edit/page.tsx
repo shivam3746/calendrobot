@@ -27,7 +27,7 @@ export default async function EditEventPage({
       <CardContent>
         {/* Render the EventForm with the event details, passing the event data as props */}
         <EventForm
-          event={{ ...event, description: event.description || undefined }} // If description is null, pass undefined
+          event={{ ...event, description: event.description || undefined, category: event.category || "Meeting" }} // If description is null, pass undefined
         />
       </CardContent>
     </Card>
