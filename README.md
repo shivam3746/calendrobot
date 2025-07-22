@@ -86,7 +86,7 @@ We believe in making **calendar management effortless**, intelligent, and deligh
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/calendrobot.git
+   git clone https://github.com/shivam3746/calendrobot.git
    cd calendrobot
 
    npm install
