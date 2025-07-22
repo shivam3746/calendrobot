@@ -10,10 +10,10 @@ import { useState } from "react"
 import { toast } from "sonner"
 
 
-// Define the possible visual states for the copy action
+// Defining the possible visual states for the copy action
 type CopyState = "idle" | "copied" | "error"
 
-// Define the props for the CopyEventButton component
+// Defining the props for the CopyEventButton component
 interface CopyEventButtonProps
   extends Omit<React.ComponentProps<"button">, "children" | "onClick">, // Inherit all native button props except children & onClick
     VariantProps<typeof buttonVariants> { // Allow variant and size props from button styling
